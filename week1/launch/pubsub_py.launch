@@ -1,0 +1,4 @@
+<launch>
+    <node name="basic_simple_talker" pkg="week1" type="basic_simple_talker.py" output="screen"/>
+    <node name="basic_simple_listener" pkg="week1" type="basic_simple_listener.py" output="screen"/>
+</launch>   
