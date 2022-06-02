@@ -8,11 +8,13 @@ https://qiita.com/srs/items/26ca826802d07a9e3d4e
 
 先程のString型の送受信を行っていたプログラムを改良して、Int64型の送受信を行うように変更する。
 
+
 #課題2
 
 launchファイルを用いて課題１を実行してみる。（参考ページ）
 
 https://qiita.com/srs/items/d7b0be3392a3a224b02f
+
 
 #課題３（余力ある人）
 
