@@ -1,7 +1,7 @@
 # Week3
 今週はImage型のtopicをsubscribeして、画像を処理したあとpublishしてみましょう.
 # 準備
-sudo apt install ros-noetic-usb-cam
+sudo apt install ros-noetic-usb-cam <br>
 sudo apt install ros-noetic-image-view
 # 参考プログラム
 week3/scripts/RGB2GRAY.pyを見てください。
