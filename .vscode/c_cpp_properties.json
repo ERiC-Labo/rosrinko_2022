@@ -4,7 +4,9 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/opt/ros/noetic/include/**"
+                "/opt/ros/noetic/include/**",
+                "/usr/include/opencv4",
+                "${workspaceFolder}/week3/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
