@@ -5,7 +5,12 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/opt/ros/noetic/include/**",
+<<<<<<< HEAD
                 "/home/ericlab/ros_ws/devel/include/**"
+=======
+                "/usr/include/opencv4",
+                "${workspaceFolder}/week3/include"
+>>>>>>> 2cfefa77d7e519cd5fe39966ae1bb812a62c8e38
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

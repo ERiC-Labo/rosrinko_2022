@@ -4,9 +4,13 @@
     ],
     "python.analysis.extraPaths": [
         "/opt/ros/noetic/lib/python3/dist-packages"
+<<<<<<< HEAD
     ],
     "files.associations": {
         "*.tcc": "cpp",
         "string": "cpp"
     }
+=======
+    ]
+>>>>>>> 2cfefa77d7e519cd5fe39966ae1bb812a62c8e38
 }
