@@ -129,14 +129,14 @@ add_dependencies(add_two_ints_server week2_gencpp)
 add_dependencies(add_two_ints_client week2_gencpp)
 
 
-add_executable(service_talker src/service_talker.cpp)
-add_executable(service_listener src/service_listener.cpp)
+add_executable(basic_client src/basic_client.cpp)
+add_executable(basic_server src/basic_server.cpp)
 
-target_link_libraries(service_talker ${catkin_LIBRARIES})
-target_link_libraries(service_listener ${catkin_LIBRARIES})
+target_link_libraries(basic_client ${catkin_LIBRARIES})
+target_link_libraries(basic_server ${catkin_LIBRARIES})
 
-add_dependencies(service_talker week2_gencpp)
-add_dependencies(service_listener week2_gencpp)
+add_dependencies(basic_client week2_gencpp)
+add_dependencies(basic_server week2_gencpp)
 
 
 
